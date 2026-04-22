@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_logic/screens/form_lesson.dart';
 import 'package:flutter_logic/screens/image_selection.dart.dart';
 import 'package:flutter_logic/screens/multi_selection.dart';
+import 'package:flutter_logic/screens/pagination.dart';
 import 'package:flutter_logic/screens/search_feature.dart';
 import 'package:flutter_logic/screens/single_selection.dart';
 import 'package:flutter_logic/screens/toggle_selection.dart';
@@ -30,6 +31,7 @@ class _RootState extends State<Root> {
     UploadFile(),
     SearchFeature(),
     FormLesson(),
+    Pagination(),
   ];
   int selectedIndex = 0;
   @override
