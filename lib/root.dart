@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_logic/screens/form_lesson.dart';
 import 'package:flutter_logic/screens/image_selection.dart.dart';
 import 'package:flutter_logic/screens/multi_selection.dart';
 import 'package:flutter_logic/screens/search_feature.dart';
@@ -28,6 +29,7 @@ class _RootState extends State<Root> {
     UploadVideo(),
     UploadFile(),
     SearchFeature(),
+    FormLesson(),
   ];
   int selectedIndex = 0;
   @override
